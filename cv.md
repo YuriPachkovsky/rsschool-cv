@@ -1,5 +1,5 @@
 # Yuri Pachkovsky
-#### Email: Yuri.Pachkovsky@hgmail.com
+#### Email: Yuri.Pachkovsky@gmail.com
 #### Phone: +375447254468
 #### Address: Lesnoy 32, 160 
 #### Date of birth: 05-07-1997
