@@ -26,5 +26,7 @@
 * Kapacitor
 * Jira
 * Flask
-
+## LANGUAGES
+#### English - Elementary (A2)
+#### Russian - Advanced
 
