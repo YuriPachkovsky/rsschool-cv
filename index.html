@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .main-content{
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1024px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .main-content_block-info{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                min-width: 1024px;
+            }
+            .header-content_base-info{
+                margin-left: auto;
+                margin-right: auto;
+                width: 1024px;
+                display: grid;
+                padding: 10px;
+                grid-template-columns: auto 45% auto;
+            }
+            .header-content_base-info_image_round{
+                border-radius: 100px; /* Радиус скругления */
+            }
+        </style>
+        <title>CV</title>
+    </head>
+<body>
+    <header>
+        <div class="header-content_base-info">
+            <img src='./media/avatar.jpeg' alt='avatar' width="150px" height="150px" class="header-content_base-info_image_round">
+            <span style="font-size: 32px;">
+                Yuri Pachkovsky
+            </span>
+            <span>
+                <ul>
+                    <li>
+                        Email: Yuri.Pachkovsky@gmail.com
+                    </li>
+                    <li>
+                        Phone: +375447254468
+                    </li>
+                    <li>
+                        Address: Lesnoy 32, 160
+                    </li>
+                    <li>
+                        Date of birth: 05-07-1997
+                    </li>
+                    <li>
+                        Nationality: Belarus
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/yuri-pachkovsky-14a767155/">LinkedIn</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="main-content_block-info">
+            <p>Education</p>
+            <span>
+                <p>Minsk, Belarus 2015-2019</p>
+                <p>systems engineer - BSUIR</p>
+            </span>
+        </section>
+        <section class="main-content_block-info">
+            <p>Experience</p>
+            <span>
+                <p>Minsk, Belarus  February 2019 - Present</p>
+                <p>Python developer - Synesis</p>
+            </span>
+        </section>
+        <section class="main-content_block-info">
+            <p>Skills</p>
+            <span>
+                <ul>
+                    <li>Git</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Postgresql</li>
+                    <li>Docker</li>
+                    <li>Grafana</li>
+                    <li>Chronograf</li>
+                    <li>Kapacitor</li>
+                    <li>Jira</li>
+                    <li>Flask</li>
+                </ul>
+            </span>
+        </section>
+        <section class="main-content_block-info">
+            <p>Languages</p>
+            <span>
+                <ul>
+                    <li>English - Elementary (A2)</li>
+                    <li>Russian - Advanced</li>
+                </ul>
+            </span>
+        </section>
+    </main>
+</body>
+</html>
